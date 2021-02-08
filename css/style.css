@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 
 /**
@@ -15,5 +16,145 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+ header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: baseline;
+    width: 100%;
+    position: fixed;
+}
+header img {
+    padding-right: 30%;
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}
+header div {
+    color: gray ;
+    padding-right: 30px;  
+}
+header div:hover {
+    color: tomato;
+}
+#bold {
+    font-weight: bold;
+}
+.center {
+    padding-top: 10px;
+}
 
+.background-image {
+    background-image: url(/Users/daleska/Desktop/HTML1/HTML-CSS-Coursework-Week2/img/first-background.jpg);
+    background-size: cover;
+}
+.background {
+  height: 650px;
+  color: white;
+  text-align: center;
+}
+.background h1 {
+    left: 37%;
+    top: 40%;
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 5em;
+}
+.background h3 {
+    left: 33%;
+    top: 50%;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.background button {
+    top: 65%;
+    left: 48%;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(228, 87, 62);
+    border-radius: 4px;
+    border: rgb(228, 87, 62)
+}
+.background button:hover {
+    background-color: tomato;
+}
+.devices .title {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+#title {
+    font-weight: lighter;
+    padding-top: 10%;
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;   
+}
+.computer {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    padding-right: 60px;
+  
+}
+.computer h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+.coffee {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+
+}
+.coffee h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.refill {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    padding-left: 60px;
+    
+}
+.refill h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
+.footer {
+    border-top: 1px solid #dbdcdd;
+    margin-top: 15%;
+}
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.twitter, .instagram, .facebook {
+    width: 20px;
+    border:rgb(168, 168, 168) solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer h3 {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+    font-weight: lighter;
+}
 
